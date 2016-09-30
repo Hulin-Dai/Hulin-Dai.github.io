@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://hulin-dai.github.io/2016/09/30/test/</loc>
+    
+    <lastmod>2016-09-30T13:18:53.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://hulin-dai.github.io/categories/index.html</loc>
     
     <lastmod>2016-09-30T10:29:01.000Z</lastmod>
@@ -19,13 +26,6 @@
     <loc>https://hulin-dai.github.io/tags/index.html</loc>
     
     <lastmod>2016-09-30T06:54:02.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://hulin-dai.github.io/2016/09/30/hello-world/</loc>
-    
-    <lastmod>2016-09-30T04:57:34.000Z</lastmod>
     
   </url>
   
