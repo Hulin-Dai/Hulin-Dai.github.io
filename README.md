@@ -1,2 +1,2 @@
 # hulin-dai.github.io
-Blog
+My personal website powerby [Hexo](https://github.com/hexojs/hexo).
