@@ -354,14 +354,9 @@
       
         
           
-            <h2 id="将宏参数字符串化"><a href="#将宏参数字符串化" class="headerlink" title="#: 将宏参数字符串化"></a>#: 将宏参数字符串化</h2><pre><code>#define STRING(x) #x
-STRING(x)  // &quot;x&quot;
-</code></pre><h2 id="拼接符号"><a href="#拼接符号" class="headerlink" title="##: 拼接符号"></a>##: 拼接符号</h2><pre><code>#define connect(x, y) x##y
-int ab = 1;
-printf(&quot;%d&quot;, connect(a, b));
-// output: 1
-// connect(a, b) -&gt; ab
-</code></pre><h2 id="参考链接："><a href="#参考链接：" class="headerlink" title="参考链接："></a>参考链接：</h2><p><a href="http://www.cnblogs.com/morewindows/archive/2011/08/18/2144112.html" target="_blank" rel="external">http://www.cnblogs.com/morewindows/archive/2011/08/18/2144112.html</a></p>
+            <h2 id="将宏参数字符串化"><a href="#将宏参数字符串化" class="headerlink" title="#: 将宏参数字符串化"></a>#: 将宏参数字符串化</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#<span class="meta-keyword">define</span> STRING(x) #x</span></div><div class="line">STRING(x)  <span class="comment">// "x"</span></div></pre></td></tr></table></figure>
+<h2 id="拼接符号"><a href="#拼接符号" class="headerlink" title="##: 拼接符号"></a>##: 拼接符号</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#<span class="meta-keyword">define</span> connect(x, y) x##y</span></div><div class="line"><span class="keyword">int</span> ab = <span class="number">1</span>;</div><div class="line"><span class="built_in">printf</span>(<span class="string">"%d"</span>, connect(a, b));</div><div class="line"><span class="comment">// output: 1</span></div><div class="line"><span class="comment">// connect(a, b) -&gt; ab</span></div></pre></td></tr></table></figure>
+<h2 id="参考链接："><a href="#参考链接：" class="headerlink" title="参考链接："></a>参考链接：</h2><p><a href="http://www.cnblogs.com/morewindows/archive/2011/08/18/2144112.html" target="_blank" rel="external">http://www.cnblogs.com/morewindows/archive/2011/08/18/2144112.html</a></p>
 
           
         
