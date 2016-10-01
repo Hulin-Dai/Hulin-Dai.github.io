@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://hulin-dai.github.io/"/>
-  <updated>2016-09-30T13:18:53.000Z</updated>
+  <updated>2016-10-01T08:33:45.000Z</updated>
   <id>https://hulin-dai.github.io/</id>
   
   <author>
@@ -16,16 +16,33 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>test</title>
-    <link href="https://hulin-dai.github.io/2016/09/30/test/"/>
-    <id>https://hulin-dai.github.io/2016/09/30/test/</id>
-    <published>2016-09-30T13:18:53.000Z</published>
-    <updated>2016-09-30T13:18:53.000Z</updated>
+    <title>c/c++宏中的#、##</title>
+    <link href="https://hulin-dai.github.io/2016/10/01/sharp-in-define-of-c/"/>
+    <id>https://hulin-dai.github.io/2016/10/01/sharp-in-define-of-c/</id>
+    <published>2016-10-01T08:30:18.000Z</published>
+    <updated>2016-10-01T08:33:45.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="将宏参数字符串化"><a href="#将宏参数字符串化" class="headerlink" title="#: 将宏参数字符串化"></a>#: 将宏参数字符串化</h2><pre><code>#define STRING(x) #x
+STRING(x)  // &quot;x&quot;
+</code></pre><h2 id="拼接符号"><a href="#拼接符号" class="headerlink" title="##: 拼接符号"></a>##: 拼接符号</h2><pre><code>#define connect(x, y) x##y
+int ab = 1;
+printf(&quot;%d&quot;, connect(a, b));
+// output: 1
+// connect(a, b) -&gt; ab
+</code></pre><h2 id="参考链接："><a href="#参考链接：" class="headerlink" title="参考链接："></a>参考链接：</h2><p><a href="http://www.cnblogs.com/morewindows/archive/2011/08/18/2144112.html" target="_blank" rel="external">http://www.cnblogs.com/morewindows/archive/2011/08/18/2144112.html</a></p>
+]]></content>
     
     <summary type="html">
     
+      &lt;h2 id=&quot;将宏参数字符串化&quot;&gt;&lt;a href=&quot;#将宏参数字符串化&quot; class=&quot;headerlink&quot; title=&quot;#: 将宏参数字符串化&quot;&gt;&lt;/a&gt;#: 将宏参数字符串化&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;#define STRING(x) #x
+STRING(x)  
+    
     </summary>
     
+      <category term="programming" scheme="https://hulin-dai.github.io/categories/programming/"/>
+    
+    
+      <category term="c/c++" scheme="https://hulin-dai.github.io/tags/c-c/"/>
     
   </entry>
   

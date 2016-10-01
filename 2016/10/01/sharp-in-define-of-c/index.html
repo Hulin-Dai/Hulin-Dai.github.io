@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="c/c++," />
 
 
 
@@ -86,16 +86,37 @@
 
 
 
-<meta name="description" content="我的问题在于代码写得太少而想得太多">
+<meta name="description" content="#: 将宏参数字符串化#define STRING(x) #x
+STRING(x)  // &amp;quot;x&amp;quot;
+##: 拼接符号#define connect(x, y) x##y
+int ab = 1;
+printf(&amp;quot;%d&amp;quot;, connect(a, b));
+// output: 1
+// connect(a, b) -&amp;gt; ab
+参考链接：http://www">
 <meta property="og:type" content="article">
-<meta property="og:title" content="test">
-<meta property="og:url" content="https://hulin-dai.github.io/2016/09/30/test/index.html">
+<meta property="og:title" content="c/c++宏中的#、##">
+<meta property="og:url" content="https://hulin-dai.github.io/2016/10/01/sharp-in-define-of-c/index.html">
 <meta property="og:site_name" content="代虎林的个人博客">
-<meta property="og:description" content="我的问题在于代码写得太少而想得太多">
-<meta property="og:updated_time" content="2016-09-30T13:18:53.000Z">
+<meta property="og:description" content="#: 将宏参数字符串化#define STRING(x) #x
+STRING(x)  // &amp;quot;x&amp;quot;
+##: 拼接符号#define connect(x, y) x##y
+int ab = 1;
+printf(&amp;quot;%d&amp;quot;, connect(a, b));
+// output: 1
+// connect(a, b) -&amp;gt; ab
+参考链接：http://www">
+<meta property="og:updated_time" content="2016-10-01T08:33:45.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="test">
-<meta name="twitter:description" content="我的问题在于代码写得太少而想得太多">
+<meta name="twitter:title" content="c/c++宏中的#、##">
+<meta name="twitter:description" content="#: 将宏参数字符串化#define STRING(x) #x
+STRING(x)  // &amp;quot;x&amp;quot;
+##: 拼接符号#define connect(x, y) x##y
+int ab = 1;
+printf(&amp;quot;%d&amp;quot;, connect(a, b));
+// output: 1
+// connect(a, b) -&amp;gt; ab
+参考链接：http://www">
 
 
 
@@ -116,9 +137,9 @@
 
 
 
-  <link rel="canonical" href="https://hulin-dai.github.io/2016/09/30/test/"/>
+  <link rel="canonical" href="https://hulin-dai.github.io/2016/10/01/sharp-in-define-of-c/"/>
 
-  <title> test | 代虎林的个人博客 </title>
+  <title> c/c++宏中的#、## | 代虎林的个人博客 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -281,7 +302,7 @@
             
             
               
-                test
+                c/c++宏中的#、##
               
             
           </h1>
@@ -293,19 +314,38 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-09-30T21:18:53+08:00" content="2016-09-30">
-              2016-09-30
+            <time itemprop="dateCreated" datetime="2016-10-01T16:30:18+08:00" content="2016-10-01">
+              2016-10-01
             </time>
           </span>
 
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/programming/" itemprop="url" rel="index">
+                    <span itemprop="name">programming</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
           
 
           
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2016/09/30/test/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/09/30/test/" itemprop="commentsCount"></span>
+                <a href="/2016/10/01/sharp-in-define-of-c/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/10/01/sharp-in-define-of-c/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -334,7 +374,15 @@
       
 
       
-        
+        <h2 id="将宏参数字符串化"><a href="#将宏参数字符串化" class="headerlink" title="#: 将宏参数字符串化"></a>#: 将宏参数字符串化</h2><pre><code>#define STRING(x) #x
+STRING(x)  // &quot;x&quot;
+</code></pre><h2 id="拼接符号"><a href="#拼接符号" class="headerlink" title="##: 拼接符号"></a>##: 拼接符号</h2><pre><code>#define connect(x, y) x##y
+int ab = 1;
+printf(&quot;%d&quot;, connect(a, b));
+// output: 1
+// connect(a, b) -&gt; ab
+</code></pre><h2 id="参考链接："><a href="#参考链接：" class="headerlink" title="参考链接："></a>参考链接：</h2><p><a href="http://www.cnblogs.com/morewindows/archive/2011/08/18/2144112.html" target="_blank" rel="external">http://www.cnblogs.com/morewindows/archive/2011/08/18/2144112.html</a></p>
+
       
     </div>
 
@@ -353,6 +401,12 @@
     </div>
 
     <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/c-c/" rel="tag">#c/c++</a>
+          
+        </div>
       
 
       
@@ -377,8 +431,8 @@
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2016/09/30/test/"
-           data-title="test" data-url="https://hulin-dai.github.io/2016/09/30/test/">
+      <div class="ds-thread" data-thread-key="2016/10/01/sharp-in-define-of-c/"
+           data-title="c/c++宏中的#、##" data-url="https://hulin-dai.github.io/2016/10/01/sharp-in-define-of-c/">
       </div>
     
   </div>
@@ -429,7 +483,21 @@
           </div>
 
           
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
 
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
           
 
         </nav>
@@ -515,7 +583,7 @@
               
             
             
-              <p class="post-toc-empty">此文章未包含目录</p>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#将宏参数字符串化"><span class="nav-number">1.</span> <span class="nav-text">#: 将宏参数字符串化</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#拼接符号"><span class="nav-number">2.</span> <span class="nav-text">##: 拼接符号</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#参考链接："><span class="nav-number">3.</span> <span class="nav-text">参考链接：</span></a></li></ol></div>
             
           </div>
         </section>

@@ -4,15 +4,20 @@
 
     
   <url>
-    <loc>https://hulin-dai.github.io/2016/09/30/test/</loc>
-    <lastmod>2016-09-30T13:18:53.000Z</lastmod>
+    <loc>https://hulin-dai.github.io/2016/10/01/sharp-in-define-of-c/</loc>
+    <lastmod>2016-10-01T08:33:45.000Z</lastmod>
     <data>
         <display>
-        <title>test</title>
-        <pubTime>2016-09-30T13:18:53.000Z</pubTime>
+        <title>c/c++宏中的#、##</title>
+        <pubTime>2016-10-01T08:30:18.000Z</pubTime>
         
+        <tag>c/c++</tag>
+         
          
            
+             
+              <breadCrumb title="programming" url="https://hulin-dai.github.io/categories/programming/"/>
+          
         </display>
     </data>
     </url>
