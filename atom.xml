@@ -4,9 +4,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://hulin-dai.github.io/"/>
+  <link href="http://daihulin.com/"/>
   <updated>2016-10-01T09:15:41.000Z</updated>
-  <id>https://hulin-dai.github.io/</id>
+  <id>http://daihulin.com/</id>
   
   <author>
     <name>Hulin Dai</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>c/c++宏中的#、##</title>
-    <link href="https://hulin-dai.github.io/2016/10/01/sharp-in-define-of-c/"/>
-    <id>https://hulin-dai.github.io/2016/10/01/sharp-in-define-of-c/</id>
+    <link href="http://daihulin.com/2016/10/01/sharp-in-define-of-c/"/>
+    <id>http://daihulin.com/2016/10/01/sharp-in-define-of-c/</id>
     <published>2016-10-01T08:30:18.000Z</published>
     <updated>2016-10-01T09:15:41.000Z</updated>
     
@@ -33,10 +33,10 @@
     
     </summary>
     
-      <category term="programming" scheme="https://hulin-dai.github.io/categories/programming/"/>
+      <category term="programming" scheme="http://daihulin.com/categories/programming/"/>
     
     
-      <category term="c/c++" scheme="https://hulin-dai.github.io/tags/c-c/"/>
+      <category term="c/c++" scheme="http://daihulin.com/tags/c-c/"/>
     
   </entry>
   
