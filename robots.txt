@@ -13,6 +13,6 @@ Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
 
-Sitemap: https://hulin-dai.github.io/sitemap.xml
-Sitemap: https://hulin-dai.github.io/baidusitemap.xml
+Sitemap: http://daihulin.com/sitemap.xml
+Sitemap: https://daihulin.com/baidusitemap.xml
 
